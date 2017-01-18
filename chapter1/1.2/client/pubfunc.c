@@ -3,7 +3,12 @@
 void err_quit(char *str, ...) 
 { 
 	va_list ap; 
-
+	FILE *fp = NULL;
+	fp=fopen("err_0.log","w+");
+	if(NULL == fp) {
+		printf("err open file\n");
+		exit(-1);
+	}
 	va_start(ap,str); 
 	vprintf(str,ap); 
 	va_end(ap); 
