@@ -1,7 +1,5 @@
 BASEDIR=${HOME}
-ALLDIRS=${BASEDIR}/unix_network_programing_learn/src/chp1/timecltip6 \
-		${BASEDIR}/unix_network_programing_learn/src/chp1/timeclt \
-		${BASEDIR}/unix_network_programing_learn/src/chp1/timesvr
+ALLDIRS=${BASEDIR}/unix_network_programing_learn/src/chp3/c_sort \
 
 all:
 	@for subdir in ${ALLDIRS}; \

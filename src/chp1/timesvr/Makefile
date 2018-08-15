@@ -1,8 +1,8 @@
 CC=gcc
 CFLAG=-Wall -O2 -g
-EXOBJ=${HOME}/unix_network/bin/timesvr
-IPUB=-I${HOME}/unix_network/include
-LINKRULE=-L ${HOME}/unix_network/lib -lpub
+EXOBJ=${HOME}/bin/timesvr
+IPUB=-I${HOME}/unix_network_programing_learn/include
+LINKRULE=-L ${HOME}/lib -lpub
 TARGETS=${EXOBJ}
 all:${TARGETS}
 clean:

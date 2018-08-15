@@ -1,6 +1,6 @@
 CC=gcc
 CFLAG=-Wall -O2 -g
-EXLIB=${HOME}/unix_network/lib/libpub.a
+EXLIB=${HOME}/lib/libpub.a
 PUBOBJS=pub.o
 TARGETS=${EXLIB}
 
